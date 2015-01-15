@@ -34,7 +34,7 @@ function lookUpEnvironment(env, cb) {
     cb(null, {
       name: env,
       // needs to be looked up by the analyzer
-      elb: 'webElb-1432778970.us-west-2.elb.amazonaws.com',
+      elb: 'blue-1672734734.us-west-2.elb.amazonaws.com',
       // needs to be looked up by the analyzer
       hostedZoneId: 'Z33MTJ483KN6FU',
       // needs to be in the <env>.json file
@@ -44,7 +44,7 @@ function lookUpEnvironment(env, cb) {
     cb(null, {
       name: env,
       // needs to be looked up by the analyzer
-      elb: 'sudc-bal-1117399678.us-west-2.elb.amazonaws.com',
+      elb: 'green-1973113926.us-west-2.elb.amazonaws.com',
       // needs to be looked up by the analyzer
       hostedZoneId: 'Z33MTJ483KN6FU',
       // needs to be in the <env>.json file
